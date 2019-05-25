@@ -1,0 +1,14 @@
+<!--
+.. title: A Practical Roadmap for Provenance Capture and Data Analysis in Spark-based Scientific Workflows
+.. slug: A-Practical-Roadmap-for-Provenance-Capture-and-Data-Analysis
+.. date: 2018-12-29 00:00:00
+.. link: https://sc18.supercomputing.org/proceedings/workshops/workshop_files/ws_works111s2-file1.pdf
+.. tags: reproducible paper
+.. description:
+-->
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<p>Whenever   high-performance   computing   applications meet data-intensive scalable systems, an attractive approach is  the  use  of  Apache  Spark  for  the  management  of  scientific workflows.  Spark  provides  several  advantages  such  as  being widely  supported  and  granting  efficient  in-memory  data  management  for  large-scale  applications.  However,  Spark  still  lacks support for data tracking and workflow provenance. Additionally, Spark’s  memory  management  requires  accessing  all  data  movements  between  the  workflow  activities.  Therefore,  the  running of  legacy  programs  on  Spark  is  interpreted  as  a  "black-box" activity, which prevents the capture and analysis of implicit data movements. Here, we present SAMbA, an Apache Spark extension for  the  gathering  of  prospective  and  retrospective  provenance and  domain  data  within  distributed  scientific  workflows.  Our approach  relies  on  enveloping  both  RDD  structure  and  data contents  at  runtime  so  that (i) RDD-enclosure  consumed  and produced   data   are   captured   and   registered   by SAMbA in   a structured way, and (ii) provenance data can be queried during and  after  the  execution  of  scientific  workflows.  By  following the  W3C  PROV  representation,  we  model  the  roles  of  RDD regarding  prospective  and  retrospective  provenance  data.  Our solution  provides  mechanisms  for  the  capture  and  storage  of provenance data without jeopardizing Spark’s performance. The provenance  retrieval  capabilities  of  our  proposal  are  evaluated in  a  practical  case  study,  in  which  data  analytics  are  provided by  several SAMbA parameterizations.</p>
+

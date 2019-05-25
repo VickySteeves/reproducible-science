@@ -1,0 +1,166 @@
+body p {
+  font-size:1.2em;
+}
+
+body ul > li {
+	font-size:1.2em;
+}
+
+body a {
+	color: #5b8cc2;
+}
+
+
+/* --------------------BUTTONS--------------------------*/
+
+.bg-primary { 
+	background-color: #5b8cc2 !important;
+}
+
+.btn-primary {
+	background-color: #5b8cc2 !important;
+	color: #fff !important;
+}
+
+
+.btn-primary:hover {
+	background-color: #165ba8 !important;
+	color: #fff !important;
+}
+
+.border-primary {
+	border-color: #5b8cc2 !important;
+}
+
+.btn-secondary {
+	background-color: #c2915b !important;
+	color: #fff !important;
+	border-color: #ae8251 !important;
+}
+
+
+.btn-secondary:hover {
+	background-color: #ae8251 !important;
+	color: #fff !important;
+}
+
+
+/* --------------------NAVBAR--------------------------*/
+
+.navbar { 
+	font-size: 1.2em;
+}
+
+.navbar-brand {
+	font-size: 1.2em;
+}
+
+.navbar-dark .navbar-nav .nav-link { 
+	color:#e5e5e5 !important;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active { 
+	color: #fff !important;
+	font-weight: 600;
+}
+
+.nav-link .fab {
+	color: #fff !important;
+}
+
+.nav-link .fas {
+	color: #fff !important;
+}
+
+#blog-title{
+	vertical-align: -moz-middle-with-baseline !important;
+	padding-left: 0.2em;
+}
+
+/* --------------------FOOTER--------------------------*/
+#footer {
+  text-align: center;
+  font-size:1.2em;
+}
+
+/* --------------------TAGS in INDEX--------------------------*/
+.tags {
+  text-align: left;
+  font-size:1.2em;
+}
+
+.tags li > a { 
+	display: inline-block;
+  padding: .25em .4em;
+  font-weight: 600;
+  font-size: 0.9em !important;
+  line-height: 1;
+  color: #5b8cc2;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  background-color: transparent;
+}
+
+.tags > li a:hover {
+	color: #165ba8;
+  text-decoration: underline;
+	background-color: transparent;
+}
+
+.tag-header {
+	background-color: #5b8cc2 !important;
+	color: #fff !important;
+}
+
+.tag-header h5 {
+	font-weight: 600 !important;
+}
+
+/* --------------------PAGINATION--------------------------*/
+.page-item.active .page-link {
+	background-color: #5b8cc2 !important;
+	color: #fff !important;
+}
+
+.page-link{
+	color: #5b8cc2 !important;
+}
+
+.list-inline {
+	font-size:1.3em !important;
+}
+
+.badge-primary {
+	background-color: #5b8cc2 !important;
+	color: #fff !important;
+}
+
+.badge-primary:hover {
+	background-color: #165ba8 !important;
+	color: #fff !important;
+}
+
+/* --------------------RESPONSIVE DISPLAY HEADINGS--------------------------*/
+@media (max-width: 575.98px) {
+  .display-1 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.0;
+  }
+  .display-2 {
+    font-size: 2.75rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+  .display-3 {
+    font-size: 2.25rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+  .display-4 {
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+}

@@ -1,0 +1,14 @@
+<!--
+.. title: Jug: Software for parallel reproducible computation in Python
+.. slug: Jug-Software-for-parallel-reproducible-computation-in-Python
+.. date: 2017-10-21 00:00:00
+.. link: http://luispedro.org/files/JugPaper.pdf
+.. tags: reproducible paper
+.. description:
+-->
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<p>As computational pipelines become a bigger part of science, it is important to ensure that the results are reproducible, a concern which has come to the fore in recent years. All developed software should be able to be run automatically without any user intervention. In addition to being valuable to the wider community, which may wish to reproduce or extend a published analysis, reproducible research practices allow for better control over the project by the original authors themselves. For example, keeping a non-executable record of parameters and command line arguments leads to error-prone analysis and opens up the possibility that, when the results are to be written up for publication, the researcher will no longer be able to even completely describe the process that led to them. For large projects, the use of multiple computational cores (either in a multi-core machine or distributed across a compute cluster) is necessary to obtain results in a useful time frame. Furthermore, it is often the case that, as the project evolves, it becomes necessary to save intermediate results while down-stream analyses are designed (or redesigned) and implemented. Under many frameworks, this causes having a single point of entry for the computation becomes increasingly difficult. Jug is a software framework which addresses these issues by caching intermediate results  and distributing the computational work as tasks across a network. Jug is written in Python without the use of compiled modules, is completely crossplatform, and available as free software under the liberal MIT license.</p>
+
